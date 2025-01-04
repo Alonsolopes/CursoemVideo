@@ -1,0 +1,9 @@
+
+.box{
+    width:20%;
+    height: 350px;
+}
+
+.box img{
+    max-width: 100%;
+}

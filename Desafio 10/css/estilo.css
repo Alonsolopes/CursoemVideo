@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #aee7ca;
+}
+
+header{
+    width: 100%;
+    height:150px;
+    background-image: linear-gradient(#29A63C, #51a646a1,#4dbf3ba9 );
+}
+
+header h1{
+    color: white;
+    font-size:2.2em;
+    font-weight:800;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow:2px 2px 1px rgba(0, 0, 0, 0.616);
+}
+
+header p{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+header > #menu > nav > a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin:10px 12px;
+}
+
+header > #menu > nav > a:hover{
+    color: #21441d;
+}
+
+main{
+    max-width:1000px;
+    min-width:600px;
+    margin: auto;
+}
+
+section{
+    width:65%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding:12px;
+    box-shadow: 4px 4px 4px rgba(66, 66, 66, 0.527);
+}
+
+.cont{
+    width:100%;
+}
+
+.cont img{
+    max-width:100%;
+}
+
+#redutor{
+    width:40%;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main section  h1{
+    color: #52A646;
+    font-size: 2.3em;
+    text-shadow:2px 2px 2px #1c3818;
+}
+
+.destaque{
+    background-color: rgba(173, 216, 230, 0.466);
+    font-size:2.1em;
+    width: 600px;
+    border-radius: 1px;
+}
+
+main > section > .cont > iframe{
+    margin-top: 30px;
+    max-width:1000px;
+    min-width: 600px;
+}
+
+.container{
+    width:95%;
+    background-color:lightblue;
+    margin: auto;
+    border-radius:20px;   
+    padding:14px;    
+    margin-bottom: 30px;                                                      
+}
+
+.container h3{
+    background-color:rgb(148, 208, 228);
+    margin:-14px -14px 0px -14px;
+    border-radius:10px 10px 0px 0px;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    font-size:2em;
+}
+
+.container p{
+    margin-top: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    columns:2;
+    margin: 20px 0px;
+    list-style-type:'\2705\00a0\00a0';
+}
+
+footer{
+    background-color:#29A63C;
+}
+
+footer > p{
+    padding:2px;
+    text-align: center;
+    color: white;
+}
